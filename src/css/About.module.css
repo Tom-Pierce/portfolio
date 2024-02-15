@@ -1,0 +1,34 @@
+.aboutSection {
+  margin-top: 8rem;
+}
+
+.aboutIntro {
+  font-weight: 400;
+  font-size: 4.5rem;
+}
+
+.aboutMeText {
+  width: 70%;
+  margin-top: 1rem;
+}
+
+.cvLink {
+  font-weight: 700;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.cvLink::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  display: block;
+  height: 2px;
+  width: 0%;
+  background-color: var(--secondary);
+  transition: all ease-in 0.5s;
+}
+
+.cvLink:hover::after {
+  width: 100%;
+}

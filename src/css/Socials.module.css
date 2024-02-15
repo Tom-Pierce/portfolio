@@ -1,0 +1,10 @@
+.socialsBar {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.icon {
+  height: 3rem;
+  margin-bottom: 0.5rem;
+}

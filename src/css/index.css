@@ -1,0 +1,17 @@
+:root {
+  --background: #637e76;
+  --primary: #c69774;
+  --secondary: #f8dfd4;
+  --text: #ffefe8;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 0 12%;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+a {
+  color: var(--secondary);
+}
