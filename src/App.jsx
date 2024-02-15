@@ -10,12 +10,12 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <>
-      <Header />
-      <main>
+      <div style={{ height: "100vh" }}>
+        <Header />
         <About />
-        <Projects />
-        <Contact />
-      </main>
+      </div>
+      <Projects />
+      <Contact />
       <Footer />
     </>
   );
