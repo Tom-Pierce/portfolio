@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
-    <section>
+    <section className={styles.projectsSection}>
       <h2 className={styles.title}>Projects</h2>
       <ul className={styles.projectList}>
         <li>
@@ -16,10 +16,9 @@ const Projects = () => {
               "React",
               "NodeJS",
               "Express",
-              "Javascript",
-              "HTML",
               "CSS",
-              "CSS Modules",
+              "HTML",
+              "Javascript",
             ]}
             github={"https://github.com/Tom-Pierce/ziplink-client"}
             liveSite={"https://ziplink.xyz"}
@@ -36,9 +35,8 @@ const Projects = () => {
               "NodeJS",
               "Express",
               "Javascript",
-              "HTML",
               "CSS",
-              "CSS Modules",
+              "HTML",
             ]}
             github={"https://github.com/Tom-Pierce/ziplink-client"}
             liveSite={"https://ziplink.xyz"}
@@ -53,12 +51,11 @@ const Projects = () => {
             }
             techStack={[
               "React",
-              "NodeJS",
               "Express",
-              "Javascript",
+              "NodeJS",
               "HTML",
               "CSS",
-              "CSS Modules",
+              "Javascript",
             ]}
             github={"https://github.com/Tom-Pierce/ziplink-client"}
             liveSite={"https://ziplink.xyz"}

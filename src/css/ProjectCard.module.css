@@ -1,2 +1,40 @@
 .card {
+  background-color: var(--primary);
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.projectName {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.projectDescription {
+  margin-top: 1rem;
+}
+
+.techStack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.tech {
+  background-color: var(--secondary);
+  padding: 0.25rem;
+}
+
+.projectLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.icon {
+  height: 2rem;
+  margin-bottom: 0.5rem;
 }

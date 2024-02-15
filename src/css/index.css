@@ -1,8 +1,9 @@
 :root {
   --background: #637e76;
   --primary: #c69774;
-  --secondary: #f8dfd4;
-  --text: #ffefe8;
+  --secondary: #4a4644;
+
+  --text: #f8dfd4;
 }
 
 body {
@@ -13,5 +14,5 @@ body {
 }
 
 a {
-  color: var(--secondary);
+  color: var(--text);
 }

@@ -1,9 +1,15 @@
+.projectsSection {
+  margin-top: 4rem;
+}
+
 .title {
+  text-align: center;
   font-weight: 900;
   font-size: 3rem;
 }
 
 .projectList {
   display: flex;
-  justify-content: space-evenly;
+  gap: 2rem;
+  margin-top: 1rem;
 }
