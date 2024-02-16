@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
-    <section className={styles.projectsSection}>
+    <section id="projects" className={styles.projectsSection}>
       <h2 className={styles.title}>Projects</h2>
       <ul className={styles.projectList}>
         <li>

@@ -1,14 +1,27 @@
 import { useState } from "react";
 import styles from "../css/NavBar.module.css";
+import { Link } from "react-scroll";
 
 const NavBar = () => {
   const [theme, setTheme] = useState("dark");
   return (
     <nav className={styles.nav}>
       <ul className={styles.navList}>
-        <li className={styles.navListItem}>projects</li>
-        <li className={styles.navListItem}>skills</li>
-        <li className={styles.navListItem}>contact</li>
+        <li className={styles.navListItem}>
+          <Link to="projects" smooth={true} duration={500}>
+            projects
+          </Link>
+        </li>
+        <li className={styles.navListItem}>
+          <Link to="skills" smooth={true} duration={500}>
+            skills
+          </Link>
+        </li>
+        <li className={styles.navListItem}>
+          <Link to="contact" smooth={true} duration={500}>
+            contact
+          </Link>
+        </li>
       </ul>
       <button className={styles.iconButton} aria-label="toggle theme">
         {theme === "dark" ? (
