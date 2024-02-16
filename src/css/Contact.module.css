@@ -1,0 +1,21 @@
+.title {
+  text-align: center;
+  font-weight: 900;
+  font-size: 3rem;
+  margin-top: 4rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+.contactBar {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.icon {
+  height: 3rem;
+  margin-bottom: 0.5rem;
+}
