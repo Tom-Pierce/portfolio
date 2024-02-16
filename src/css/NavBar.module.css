@@ -12,6 +12,29 @@
   color: var(--accent);
 }
 
+.navListItem {
+  position: relative;
+}
+
+.navListItem a:hover {
+  cursor: pointer;
+}
+
+.navListItem a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  display: block;
+  height: 2px;
+  width: 0%;
+  background-color: var(--accent);
+  transition: all ease-in 0.25s;
+}
+
+.navListItem a:hover::after {
+  width: 100%;
+}
+
 .iconButton {
   background-color: var(--background);
   color: var(--accent);
