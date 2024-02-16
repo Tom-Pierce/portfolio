@@ -1,9 +1,9 @@
 :root {
-  --background: #637e76;
-  --primary: #c69774;
-  --secondary: #4a4644;
-
-  --text: #f8dfd4;
+  --background: #352f44;
+  --primary: #5c5470;
+  --secondary: #b9b4c7;
+  --text: #faf0e6;
+  --accent: #e77544;
 }
 
 body {
@@ -14,5 +14,5 @@ body {
 }
 
 a {
-  color: var(--text);
+  color: var(--accent);
 }

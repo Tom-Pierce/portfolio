@@ -3,8 +3,9 @@
   align-items: center;
   padding-top: 3rem;
 }
+
 .title {
   font-weight: 900;
   font-size: 2rem;
-  color: var(--text);
+  color: var(--accent);
 }
