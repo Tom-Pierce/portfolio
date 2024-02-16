@@ -16,6 +16,7 @@ const Projects = () => {
               "React",
               "NodeJS",
               "Express",
+              "MongoDb",
               "CSS",
               "HTML",
               "Javascript",
@@ -37,6 +38,7 @@ const Projects = () => {
               "Javascript",
               "CSS",
               "HTML",
+              "MongoDb",
             ]}
             github={"https://github.com/Tom-Pierce/ziplink-client"}
             liveSite={"https://ziplink.xyz"}
@@ -52,6 +54,7 @@ const Projects = () => {
             techStack={[
               "React",
               "Express",
+              "MongoDb",
               "NodeJS",
               "HTML",
               "CSS",
