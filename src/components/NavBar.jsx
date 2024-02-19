@@ -1,9 +1,11 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import styles from "../css/NavBar.module.css";
 import { Link } from "react-scroll";
+import { ThemeContext } from "../App";
 
 const NavBar = () => {
-  const [theme, setTheme] = useState("dark");
+  const { theme, setTheme } = useContext(ThemeContext);
+
   return (
     <nav className={styles.nav}>
       <ul className={styles.navList}>
@@ -23,8 +25,15 @@ const NavBar = () => {
           </Link>
         </li>
       </ul>
-      <button className={styles.iconButton} aria-label="toggle theme">
-        {theme === "dark" ? (
+      <button
+        className={styles.iconButton}
+        onClick={(e) => {
+          e.preventDefault();
+          setTheme(theme === "light" ? "dark" : "light");
+        }}
+        aria-label="toggle theme"
+      >
+        {theme === "light" ? (
           <svg
             xmlns="http://www.w3.org/2000/svg"
             height="24"

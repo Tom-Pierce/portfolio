@@ -1,8 +1,16 @@
-:root {
+.light {
+  --text: #faecdd;
+  --background: #110903;
+  --primary: #eec08b;
+  --secondary: #15318e;
+  --accent: #c922df;
+}
+
+.dark {
+  --text: #faf0e6;
   --background: #352f44;
   --primary: #5c5470;
   --secondary: #b9b4c7;
-  --text: #faf0e6;
   --accent: #e77544;
 }
 
