@@ -30,7 +30,9 @@ const ProjectCard = ({
             );
           })}
         </ul>
-        <div className={styles.description}>{description}</div>
+        <div className={styles.description}>
+          <p>{description}</p>
+        </div>
         <div className={styles.links}>
           <a href={github} className={styles.link}>
             source code
