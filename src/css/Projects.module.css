@@ -1,11 +1,11 @@
 .title {
-  text-align: center;
   font-weight: 900;
   font-size: 3rem;
 }
 
 .projectList {
   display: flex;
-  gap: 2rem;
+  flex-direction: column;
+  gap: 3rem;
   margin-top: 1rem;
 }

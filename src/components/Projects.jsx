@@ -1,10 +1,11 @@
 import styles from "../css/Projects.module.css";
 import ProjectCard from "./ProjectCard";
+import ZipLinkImg from "../assets/ziplinkImg.png";
 
 const Projects = () => {
   return (
     <section id="projects" className={styles.projectsSection}>
-      <h2 className={styles.title}>Projects</h2>
+      <h2 className={styles.title}>- Projects</h2>
       <ul className={styles.projectList}>
         <li>
           <ProjectCard
@@ -20,9 +21,12 @@ const Projects = () => {
               "CSS",
               "HTML",
               "Javascript",
+              "CSS Modules",
+              "MongooseJS",
             ]}
             github={"https://github.com/Tom-Pierce/ziplink-client"}
             liveSite={"https://ziplink.xyz"}
+            projectImg={ZipLinkImg}
           />
         </li>
         <li>
@@ -42,6 +46,7 @@ const Projects = () => {
             ]}
             github={"https://github.com/Tom-Pierce/ziplink-client"}
             liveSite={"https://ziplink.xyz"}
+            projectImg={ZipLinkImg}
           />
         </li>
 
@@ -62,6 +67,7 @@ const Projects = () => {
             ]}
             github={"https://github.com/Tom-Pierce/ziplink-client"}
             liveSite={"https://ziplink.xyz"}
+            projectImg={ZipLinkImg}
           />
         </li>
       </ul>

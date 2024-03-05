@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import styles from "../css/NavBar.module.css";
 import { Link } from "react-scroll";
 import { ThemeContext } from "../App";
