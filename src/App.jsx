@@ -3,7 +3,7 @@ import "./css/index.css";
 import "./css/fonts.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import About from "./components/Intro";
+import Intro from "./components/Intro";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import { createContext, useEffect, useState } from "react";
@@ -24,7 +24,7 @@ function App() {
     <ThemeContext.Provider value={{ theme, setTheme }}>
       <div style={{ height: "100vh" }}>
         <Header />
-        <About />
+        <Intro />
       </div>
       <Projects />
       <Contact />
