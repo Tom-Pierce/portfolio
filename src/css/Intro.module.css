@@ -1,13 +1,13 @@
-.aboutSection {
+.introSection {
   margin-top: 8rem;
 }
 
-.aboutIntro {
+.introIntro {
   font-weight: 400;
   font-size: 4.5rem;
 }
 
-.aboutMeText {
+.introMeText {
   width: 70%;
   margin-top: 1rem;
 }
