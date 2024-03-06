@@ -1,6 +1,7 @@
 import styles from "../css/Projects.module.css";
 import ProjectCard from "./ProjectCard";
-import ZipLinkImg from "../assets/ziplinkImg.png";
+import zipLinkImg from "../assets/ziplinkImg.png";
+import stockTrackerImg from "../assets/stockTrackerImg.png";
 
 const Projects = () => {
   return (
@@ -26,27 +27,30 @@ const Projects = () => {
             ]}
             github={"https://github.com/Tom-Pierce/ziplink-client"}
             liveSite={"https://ziplink.xyz"}
-            projectImg={ZipLinkImg}
+            projectImg={zipLinkImg}
           />
         </li>
         <li>
           <ProjectCard
-            name={"ZipLink"}
+            name={"StockTracker"}
             description={
-              "Ziplink is a powerful tool for managing and sharing links. Whether you're looking to shorten URLs for social media posts, track the performance of marketing campaigns, or simply organize your bookmarks, Ziplink has you covered."
+              "StockTracker is a tool to keep track of your trading positions with real time share values and data. User friendly portfolio management allows anybody to pick up this tool and start using it immediately"
             }
             techStack={[
-              "React",
               "NodeJS",
               "Express",
-              "Javascript",
+              "React",
               "CSS",
+              "Javascript",
               "HTML",
+              "MongooseJS",
               "MongoDb",
+              "FinnHub API",
+              "CSS Modules",
             ]}
             github={"https://github.com/Tom-Pierce/ziplink-client"}
             liveSite={"https://ziplink.xyz"}
-            projectImg={ZipLinkImg}
+            projectImg={stockTrackerImg}
           />
         </li>
 
@@ -67,7 +71,7 @@ const Projects = () => {
             ]}
             github={"https://github.com/Tom-Pierce/ziplink-client"}
             liveSite={"https://ziplink.xyz"}
-            projectImg={ZipLinkImg}
+            projectImg={zipLinkImg}
           />
         </li>
       </ul>
