@@ -1,4 +1,3 @@
-import { useState } from "react";
 import styles from "../css/ProjectCard.module.css";
 import PropTypes from "prop-types";
 
@@ -10,13 +9,6 @@ const ProjectCard = ({
   liveSite,
   projectImg,
 }) => {
-  const [clicked, setClicked] = useState(false);
-
-  const imgClickHandler = (e) => {
-    e.preventDefault();
-    setClicked(!clicked);
-  };
-
   return (
     <div className={styles.project}>
       <div className={styles.info}>
@@ -45,8 +37,7 @@ const ProjectCard = ({
       <img
         src={projectImg}
         alt="project image"
-        className={`${styles.previewImage} ${clicked ? styles.clicked : null}`}
-        onClick={imgClickHandler}
+        className={styles.previewImage}
       />
     </div>
   );

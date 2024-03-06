@@ -58,8 +58,3 @@
 .previewImage:hover {
   transform: scale(1.1);
 }
-
-.previewImage.clicked {
-  transform: scale(2) translateX(-40%);
-  z-index: 1;
-}
