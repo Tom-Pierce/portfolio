@@ -7,6 +7,7 @@ import Intro from "./components/Intro";
 import Projects from "./components/Projects";
 import AboutMe from "./components/AboutMe";
 import { createContext, useEffect, useState } from "react";
+import Skills from "./components/Skills";
 export const ThemeContext = createContext();
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Intro />
         </div>
         <AboutMe />
+        <Skills />
         <Projects />
       </div>
       <Footer />
