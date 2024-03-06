@@ -5,7 +5,6 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Intro from "./components/Intro";
 import Projects from "./components/Projects";
-import Contact from "./components/Contact";
 import AboutMe from "./components/AboutMe";
 import { createContext, useEffect, useState } from "react";
 export const ThemeContext = createContext();
@@ -29,7 +28,6 @@ function App() {
       </div>
       <AboutMe />
       <Projects />
-      <Contact />
       <Footer />
     </ThemeContext.Provider>
   );
