@@ -5,13 +5,18 @@ import cssImg from "../assets/cssImg.png";
 import reactImg from "../assets/reactImg.png";
 import viteImg from "../assets/viteImg.png";
 import expressImg from "../assets/expressImg.png";
+import expressImgDark from "../assets/expressImgDark.png";
 import nodeImg from "../assets/nodeImg.png";
 import mongoDBImg from "../assets/mongoDBImg.png";
 import mongooseImg from "../assets/mongooseImg.png";
 import gitImg from "../assets/gitImg.png";
 import githubImg from "../assets/githubImg.png";
+import { useContext } from "react";
+import { ThemeContext } from "../App";
 
 const Skills = () => {
+  const { theme } = useContext(ThemeContext);
+
   return (
     <section id="skills">
       <h2 className="title">- Skills</h2>
@@ -37,7 +42,11 @@ const Skills = () => {
           Vite
         </li>
         <li className={styles.skill}>
-          <img src={expressImg} alt="express logo" />
+          {theme === "light" ? (
+            <img src={expressImg} alt="express logo" />
+          ) : (
+            <img src={expressImgDark} alt="express logo" />
+          )}
           ExpressJS
         </li>
         <li className={styles.skill}>
