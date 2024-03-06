@@ -1,0 +1,22 @@
+.footer {
+  border-top: 2px solid var(--primary);
+  padding: 1rem 12%;
+  display: flex;
+}
+
+.description {
+  margin-right: auto;
+}
+
+.name {
+  font-size: 2rem;
+}
+
+.description p {
+  font-weight: 200;
+  font-size: 0.875rem;
+}
+
+.description a {
+  font-weight: 200;
+}

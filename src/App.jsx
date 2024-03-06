@@ -22,12 +22,14 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
-      <div style={{ height: "100vh" }}>
-        <Header />
-        <Intro />
+      <div style={{ padding: "0 12%" }}>
+        <div style={{ height: "100vh" }}>
+          <Header />
+          <Intro />
+        </div>
+        <AboutMe />
+        <Projects />
       </div>
-      <AboutMe />
-      <Projects />
       <Footer />
     </ThemeContext.Provider>
   );

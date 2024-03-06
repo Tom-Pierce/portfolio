@@ -1,4 +1,16 @@
+import styles from "../css/Footer.module.css";
+import Socials from "./Socials";
+
 const Footer = () => {
-  return <footer>Footer</footer>;
+  return (
+    <footer className={styles.footer}>
+      <div className={styles.description}>
+        <h2 className={styles.name}>Tom Pierce</h2>
+        <p>Built and designed by Tom Pierce</p>
+        <a href="mailto:tompierce4@gmail.com">tompierce4@gmail.com</a>
+      </div>
+      <Socials />
+    </footer>
+  );
 };
 export default Footer;
