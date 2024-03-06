@@ -19,11 +19,6 @@ const NavBar = () => {
             skills
           </Link>
         </li>
-        <li className={styles.navListItem}>
-          <Link to="contact" smooth={true} duration={500}>
-            contact
-          </Link>
-        </li>
       </ul>
       <button
         className={styles.iconButton}
