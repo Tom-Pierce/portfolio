@@ -3,7 +3,7 @@ import styles from "../css/AboutMe.module.css";
 const AboutMe = () => {
   return (
     <section id="about-me">
-      <h2 className={styles.title}>- About Me</h2>
+      <h2 className="title">- About Me</h2>
       <p className={styles.bold}>I am a self-taught developer</p>
       <p>
         I have followed The Odin Project curriculum to teach myself web
