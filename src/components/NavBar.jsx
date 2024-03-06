@@ -10,13 +10,18 @@ const NavBar = () => {
     <nav className={styles.nav}>
       <ul className={styles.navList}>
         <li className={styles.navListItem}>
-          <Link to="projects" smooth={true} duration={500}>
-            projects
+          <Link to="about-me" smooth={true} duration={500}>
+            about
           </Link>
         </li>
         <li className={styles.navListItem}>
           <Link to="skills" smooth={true} duration={500}>
             skills
+          </Link>
+        </li>
+        <li className={styles.navListItem}>
+          <Link to="projects" smooth={true} duration={500}>
+            projects
           </Link>
         </li>
       </ul>
