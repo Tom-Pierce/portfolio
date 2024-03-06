@@ -39,4 +39,5 @@
   background-color: var(--background);
   color: var(--accent);
   min-width: 24px;
+  cursor: pointer;
 }
