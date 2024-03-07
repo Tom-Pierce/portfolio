@@ -1,5 +1,5 @@
 .footer {
-  border-top: 2px solid var(--primary);
+  border-top: 1px solid var(--accent);
   padding: 1rem 12%;
   display: flex;
 }
