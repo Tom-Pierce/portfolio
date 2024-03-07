@@ -4,7 +4,11 @@ const Socials = () => {
   return (
     <ul className={styles.socialsBar}>
       <li>
-        <a href="https://github.com/Tom-Pierce/">
+        <a
+          href="https://github.com/Tom-Pierce/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <svg
             className={styles.icon}
             xmlns="http://www.w3.org/2000/svg"
@@ -18,7 +22,11 @@ const Socials = () => {
         </a>
       </li>
       <li>
-        <a href="https://www.linkedin.com">
+        <a
+          href="https://www.linkedin.com/in/tom-pierce-1aa3452b8/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <svg
             className={styles.icon}
             xmlns="http://www.w3.org/2000/svg"
