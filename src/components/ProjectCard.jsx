@@ -26,12 +26,17 @@ const ProjectCard = ({
           <p>{description}</p>
         </div>
         <div className={styles.links}>
-          <a href={github} className={styles.link}>
-            source code
-          </a>
-          <a href={liveSite} className={styles.link}>
-            live site
-          </a>
+          {github ? (
+            <a href={github} className={styles.link}>
+              source code
+            </a>
+          ) : null}
+
+          {liveSite ? (
+            <a href={liveSite} className={styles.link}>
+              live site
+            </a>
+          ) : null}
         </div>
       </div>
       <img
