@@ -2,6 +2,7 @@ import styles from "../css/Projects.module.css";
 import ProjectCard from "./ProjectCard";
 import zipLinkImg from "../assets/ziplinkImg.png";
 import stockTrackerImg from "../assets/stockTrackerImg.png";
+import greedSolverImg from "../assets/greedSolverImg.png";
 
 const Projects = () => {
   return (
@@ -56,22 +57,13 @@ const Projects = () => {
 
         <li>
           <ProjectCard
-            name={"ZipLink"}
+            name={"Greed Solver"}
             description={
-              "Ziplink is a powerful tool for managing and sharing links. Whether you're looking to shorten URLs for social media posts, track the performance of marketing campaigns, or simply organize your bookmarks, Ziplink has you covered."
+              "Greed solver is a python program that runs through every possible path for an input board and prints out the longest and highest scoring path possible. It uses a recursive method to traverse all paths similar to traversing a binary tree"
             }
-            techStack={[
-              "React",
-              "Express",
-              "MongoDb",
-              "NodeJS",
-              "HTML",
-              "CSS",
-              "Javascript",
-            ]}
+            techStack={["Python"]}
             github={"https://github.com/Tom-Pierce/ziplink-client"}
-            liveSite={"https://ziplink.xyz"}
-            projectImg={zipLinkImg}
+            projectImg={greedSolverImg}
           />
         </li>
       </ul>
