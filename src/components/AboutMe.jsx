@@ -12,7 +12,7 @@ const AboutMe = () => {
       <p>
         I have spent the past few months learning all about web development and
         software engineering. I am an initiative and fast learner which has
-        helped me in my journey to learn software engineering.
+        helped me in software development journey.
       </p>
     </section>
   );
