@@ -8,10 +8,8 @@ const Intro = () => {
         Hi, I&apos;m Tom | Software Developer
       </h1>
       <p className={styles.introMeText}>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime quidem
-        est obcaecati culpa deleniti, reprehenderit ullam minima illum cumque
-        aperiam facere. Perferendis rem facilis possimus atque consequuntur sunt
-        ipsa sapiente.
+        I love developing and designing web application, both front and back
+        end. I&apos;m an eager learner who is excited to learn new skills.
       </p>
       <nav>
         <Socials />
