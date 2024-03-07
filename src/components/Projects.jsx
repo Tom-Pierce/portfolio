@@ -62,7 +62,7 @@ const Projects = () => {
               "Greed solver is a python program that runs through every possible path for an input board and prints out the longest and highest scoring path possible. It uses a recursive method to traverse all paths similar to traversing a binary tree"
             }
             techStack={["Python"]}
-            github={"https://github.com/Tom-Pierce/ziplink-client"}
+            github={"https://github.com/Tom-Pierce/greed-solver"}
             projectImg={greedSolverImg}
           />
         </li>
