@@ -49,8 +49,7 @@ const Projects = () => {
               "FinnHub API",
               "CSS Modules",
             ]}
-            github={"https://github.com/Tom-Pierce/ziplink-client"}
-            liveSite={"https://ziplink.xyz"}
+            github={"https://github.com/Tom-Pierce/stock-tracker-client"}
             projectImg={stockTrackerImg}
           />
         </li>
