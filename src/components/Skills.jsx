@@ -12,6 +12,8 @@ import mongooseImg from "../assets/mongooseImg.png";
 import gitImg from "../assets/gitImg.png";
 import githubImg from "../assets/githubImg.png";
 import pythonImg from "../assets/pythonImg.png";
+import jestImg from "../assets/jestImg.png";
+import mochaImg from "../assets/mochaImg.png";
 import { useContext } from "react";
 import { ThemeContext } from "../App";
 
@@ -73,6 +75,14 @@ const Skills = () => {
         <li className={styles.skill}>
           <img src={pythonImg} alt="python logo" />
           python
+        </li>
+        <li className={styles.skill}>
+          <img src={jestImg} alt="jest logo" />
+          jest
+        </li>
+        <li className={styles.skill}>
+          <img src={mochaImg} alt="mocha logo" />
+          mocha
         </li>
       </ul>
     </section>

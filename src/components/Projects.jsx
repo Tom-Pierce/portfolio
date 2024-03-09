@@ -25,6 +25,7 @@ const Projects = () => {
               "Javascript",
               "CSS Modules",
               "MongooseJS",
+              "Mocha",
             ]}
             github={"https://github.com/Tom-Pierce/ziplink-client"}
             liveSite={"https://ziplink.xyz"}
@@ -44,6 +45,7 @@ const Projects = () => {
               "CSS",
               "Javascript",
               "HTML",
+              "Jest",
               "MongooseJS",
               "MongoDb",
               "FinnHub API",
