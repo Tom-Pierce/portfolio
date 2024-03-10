@@ -24,7 +24,7 @@ function App() {
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
       <div style={{ padding: "0 12%" }}>
-        <div style={{ height: "100vh" }}>
+        <div style={{ minHeight: "100vh" }}>
           <Header />
           <Intro />
         </div>

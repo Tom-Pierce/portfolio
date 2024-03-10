@@ -9,7 +9,9 @@ const Footer = () => {
         <p>Built and designed by Tom Pierce</p>
         <a href="mailto:tompierce4@gmail.com">tompierce4@gmail.com</a>
       </div>
-      <Socials />
+      <div className={styles.socialsWrapper}>
+        <Socials />
+      </div>
     </footer>
   );
 };

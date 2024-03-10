@@ -33,3 +33,23 @@
 .cvLink:hover::after {
   width: 100%;
 }
+
+@media only screen and (max-width: 1000px) {
+  .introIntro {
+    font-size: 4rem;
+  }
+
+  .introMeText {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .introIntro {
+    font-size: 3rem;
+  }
+
+  .introMeText {
+    font-size: 1rem;
+  }
+}
