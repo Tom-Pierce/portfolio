@@ -13,7 +13,12 @@ const Intro = () => {
       </p>
       <nav>
         <Socials />
-        <a className={styles.cvLink} href="/CV.pdf">
+        <a
+          className={styles.cvLink}
+          href="/CV.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Curriculum Vitae
         </a>
       </nav>
